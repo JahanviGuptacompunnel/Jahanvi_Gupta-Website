@@ -1,0 +1,12 @@
+
+img{
+    float:inherit;
+}
+p:hover
+{
+background-color: blanchedalmond;
+}
+a:hover
+{
+    background-color: khaki;
+}

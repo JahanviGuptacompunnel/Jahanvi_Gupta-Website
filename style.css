@@ -1,0 +1,15 @@
+body{
+    background-image: url("1111.jpg");
+    margin-left: 200px;
+    margin-top: 300;
+    color: beige;
+    font: bolder;
+    font-family: cursive;
+    background-attachment: fixed;
+}
+p.none{
+    border-style: none;
+}
+p.dotted{
+    border-style: dotted;
+}

@@ -1,0 +1,17 @@
+body{
+    background-image: url("1111.jpg");
+    text-align: center;
+}
+button{
+    color: rgb(180, 255, 127);
+    font-size:xx-large;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: rgb(251, 0, 255);
+}
+.green{
+    background-color: rgb(47, 245, 255);
+}

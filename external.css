@@ -1,0 +1,25 @@
+h1,h2{
+    color:rgb(187, 243, 181);
+    font-family: cursive;
+}
+h3{
+    color:rgb(243, 181, 229);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: xx-large;
+}
+.brown <!class!>
+{
+    color: rgb(160, 95, 95);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+div{  
+    color: hotpink;
+}
+body{
+    background-color: rgb(189, 145, 107);
+}
+#abc  <!ID!>
+{
+    font-size: x-large;
+}

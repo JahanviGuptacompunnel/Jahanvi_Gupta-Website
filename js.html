@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <script>
+            document.writeln("hey everyone how are you");
+            function off()
+            {
+                document.write("I am from button");
+            }
+            function red()
+            {
+            alert("DANGER")
+            }
+            function add()
+            {
+                var a=10;
+                var b=20;
+                var c=a+b;
+                document.write(c);
+            }
+            function subtract()
+            {
+                var a=10;
+                var b=20;
+                var c=b-a;
+                alert(c);
+            }
+            function add1()
+            {
+                //feading data from text boxes//
+              var a= document.getElementById('txta').value;
+               var b=document.getElementById('txtb').value;
+               var c=a+b;
+               alert("sum="+c)
+            }
+            function subtract1()
+            {
+               var a= document.getElementById('txta').value;
+              var b= document.getElementById('txtb').value;
+               var c=a-b;
+               alert("subtract="+c)
+            }
+        </script>    
+        </head>
+    <body>
+        Enter value of a<input type="text" id="txta"/>
+        Enter value of b<input type="text" id="txtb"/>
+        <button style="color:blueviolet" onclick="off()">click me</button>
+        <button style="color:red" onclick="red()">Do Not Touch</button>
+        <button style="color:rgb(43, 89, 226)" onclick="add()">Add</button>
+        <button style="color:rgb(30, 82, 27)" onclick="subtract()">subtract</button>
+        <button style="color:rgb(43, 89, 226)" onclick="add1()">Addition1</button>
+        <button style="color:rgb(30, 82, 27)" onclick="subtract1()">Subtraction1</button>
+    </body>
+</html> 
